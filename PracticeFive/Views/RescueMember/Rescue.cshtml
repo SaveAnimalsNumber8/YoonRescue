@@ -93,7 +93,7 @@
         country.empty();
         $.ajax({
             type: "Post",
-            url: '@Url.Action("getCountry", "Rescue")?id=' + selectedCity,
+            url: '@Url.Action("getCountry", "RescueMember")?id=' + selectedCity,
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             async: false,
