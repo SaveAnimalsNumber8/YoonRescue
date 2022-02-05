@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SaveAnimalsModelStoreContainer" CdmEntityContainer="SaveAnimalsEntities">
+    <EntitySetMapping Name="tBlog">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tBlog">
+        <MappingFragment StoreEntitySet="tBlog">
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+          <ScalarProperty Name="BlogMemberID" ColumnName="BlogMemberID" />
+          <ScalarProperty Name="BlogCategory" ColumnName="BlogCategory" />
+          <ScalarProperty Name="BlogTitle" ColumnName="BlogTitle" />
+          <ScalarProperty Name="BlogContent" ColumnName="BlogContent" />
+          <ScalarProperty Name="Created_At" ColumnName="Created_At" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tMember">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tMember">
+        <MappingFragment StoreEntitySet="tMember">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberAccount" ColumnName="MemberAccount" />
+          <ScalarProperty Name="MemberPassword" ColumnName="MemberPassword" />
+          <ScalarProperty Name="Created_At" ColumnName="Created_At" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tPosition">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tPosition">
+        <MappingFragment StoreEntitySet="tPosition">
+          <ScalarProperty Name="positionID" ColumnName="positionID" />
+          <ScalarProperty Name="positionBelong" ColumnName="positionBelong" />
+          <ScalarProperty Name="positionPosition" ColumnName="positionPosition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tRescue">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tRescue">
+        <MappingFragment StoreEntitySet="tRescue">
+          <ScalarProperty Name="RescueID" ColumnName="RescueID" />
+          <ScalarProperty Name="RescueMemberID" ColumnName="RescueMemberID" />
+          <ScalarProperty Name="RescueTitle" ColumnName="RescueTitle" />
+          <ScalarProperty Name="ResCueDone" ColumnName="ResCueDone" />
+          <ScalarProperty Name="RescuePictures" ColumnName="RescuePictures" />
+          <ScalarProperty Name="RescuePositionCity" ColumnName="RescuePositionCity" />
+          <ScalarProperty Name="RescuePositionCountry" ColumnName="RescuePositionCountry" />
+          <ScalarProperty Name="RescueEvent" ColumnName="RescueEvent" />
+          <ScalarProperty Name="RescueSpecies" ColumnName="RescueSpecies" />
+          <ScalarProperty Name="RescueProgress" ColumnName="RescueProgress" />
+          <ScalarProperty Name="Created_At" ColumnName="Created_At" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tSpecies">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tSpecies">
+        <MappingFragment StoreEntitySet="tSpecies">
+          <ScalarProperty Name="SpeciesID" ColumnName="SpeciesID" />
+          <ScalarProperty Name="SpeciesName" ColumnName="SpeciesName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tTransfer">
+      <EntityTypeMapping TypeName="SaveAnimalsModel.tTransfer">
+        <MappingFragment StoreEntitySet="tTransfer">
+          <ScalarProperty Name="TransferID" ColumnName="TransferID" />
+          <ScalarProperty Name="TransferMemberID" ColumnName="TransferMemberID" />
+          <ScalarProperty Name="TransferDone" ColumnName="TransferDone" />
+          <ScalarProperty Name="TransferPictures" ColumnName="TransferPictures" />
+          <ScalarProperty Name="TransferPosition" ColumnName="TransferPosition" />
+          <ScalarProperty Name="TransferGender" ColumnName="TransferGender" />
+          <ScalarProperty Name="TransferName" ColumnName="TransferName" />
+          <ScalarProperty Name="TransferSpecies" ColumnName="TransferSpecies" />
+          <ScalarProperty Name="TransferNeuter" ColumnName="TransferNeuter" />
+          <ScalarProperty Name="TransferSituation" ColumnName="TransferSituation" />
+          <ScalarProperty Name="TransferRequest" ColumnName="TransferRequest" />
+          <ScalarProperty Name="TransferContactWay" ColumnName="TransferContactWay" />
+          <ScalarProperty Name="TransferContactPerson" ColumnName="TransferContactPerson" />
+          <ScalarProperty Name="Created_At" ColumnName="Created_At" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
