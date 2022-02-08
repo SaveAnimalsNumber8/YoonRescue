@@ -110,6 +110,7 @@
 }
 
 .header .text-box a {
+  margin-right: 1cm;
   font-size: 20px;
   text-decoration: none;
   color: #ece6a2;
@@ -200,11 +201,12 @@
     font-size: 30px;
   }
   .header .text-box a {
-    padding: 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #738875;
-    font-weight: 100;
-  }
+     margin-right: 1cm;
+     padding: 20px;
+     text-decoration: none;
+     color: #fff;
+     background-color: #738875;
+     font-weight: 100;
+   }
 }
 /*# sourceMappingURL=indexVer2.css.map */
